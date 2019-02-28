@@ -1,0 +1,194 @@
+html {
+    background-color: lightgrey;
+}
+header {
+    max-width: 1140px;
+    min-height: 150px;
+    background: linear-gradient(89.68deg, #003494 0.07%, #005FD5 48.62%, #02479C 99.93%);
+    margin: 20px auto;
+    padding-top: 100px;
+    border-radius: 6px;
+}
+
+.search {
+    margin: 0 auto;
+    max-width: 483px;
+    /*min-width: 200px;*/
+
+}
+.search__input {
+    display: block;
+
+    width: 90%;
+
+    box-sizing: border-box;
+
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+    background-image: url("../img/search.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 12px 12px;
+    padding: 5px 10px 5px 44px;
+    margin: 0 auto;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+
+    color: #888888;
+}
+.related-exchanges {
+    margin: 0 auto;
+    max-width: 1140px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    /*min-width: 210px;*/
+
+}
+.related-exchanges-heading {
+    margin: 0 auto;
+    padding: 15px 0;
+    border-bottom: 1px solid #D8E6F6;
+}
+.related-exchanges-heading__header {
+    /*font-family: 'Nunito', sans-serif;*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    line-height: 22px;
+    font-size: 26px;
+    color: #404040;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.related-exchanges-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 -4px -4px 0;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
+
+}
+.related-exchanges-item {
+    flex: 0 1 auto;
+
+    height: 484px;
+    border-right: 1px solid #D8E6F6;
+    border-bottom: 1px solid #D8E6F6;
+    display: inline-block;
+    box-sizing: border-box;
+    /*text-align: center;*/
+}
+
+@media only screen and (max-width: 420px) {
+    .related-exchanges-item  {
+        /*background-color: deeppink;*/
+        min-width: 100%;
+
+    }
+}
+
+@media only screen and (min-width: 421px) {
+    .related-exchanges-item  {
+        /*background-color: yellow;*/
+        min-width: 50%;
+    }
+}
+
+@media only screen and (min-width: 841px) {
+    .related-exchanges-item  {
+        /*background-color: lightblue;*/
+        min-width: 25%;
+
+    }
+}
+
+.related-exchanges-item__heading  {
+    font-size: 20px;
+    color: #186BD1;
+    /*text-align: center;*/
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+.related-exchanges-item__stars{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.related-exchanges-item__logo  {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.related-exchanges-item__params  {
+    /*background-color: lightblue;*/
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+    margin: 0 auto;
+    min-width: 30%;
+    max-width: 115px;
+}
+
+
+.related-exchanges-item__params  p{
+    margin: 0;
+    font-size: 14px;
+
+}
+
+.related-exchanges-item__params  p:nth-child(2n){
+    padding-bottom: 15px;
+    line-height: 17px;
+}
+
+.related-exchanges-item__params  p:not(:nth-child(2n)){
+    padding-bottom: 3px;
+    line-height: normal;
+}
+
+.related-exchanges-item__button-container___button {
+    background: #FFB11B;
+    border-radius: 22px;
+    width: 135px;
+    height: 40px;
+    padding: 11px 32px 11px 32px;
+    border-width: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    text-decoration: none;
+
+}
+
+.related-exchanges-item__button-container___button:hover {
+    background: #FF9B06;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.related-exchanges-item__button-container{
+    margin-top: 17px;
+}
+
