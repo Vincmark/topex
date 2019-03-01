@@ -60,9 +60,7 @@ header {
     border-bottom: 1px solid #D8E6F6;
 }
 .related-exchanges-heading__header {
-    /*font-family: 'Nunito', sans-serif;*/
-    /*font-style: normal;*/
-    /*font-weight: normal;*/
+
     line-height: 22px;
     font-size: 26px;
     color: #404040;
